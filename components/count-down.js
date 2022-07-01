@@ -52,9 +52,9 @@ export default function CountDown({ endingTime }) {
 
   return (
     <p className="text-lg text-center opacity-0 md:opacity-100 absolute bottom-24">
-      <strong>Do svatby zbývá </strong>
+      <strong>Do svatby zbývá: </strong>
       {/* <br /> */}
-      {days} dní {hours} hodin {minutes} minut {seconds} sekund
+      {days} dní a {hours}h {minutes}m {seconds}s
     </p>
   );
 }

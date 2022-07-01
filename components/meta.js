@@ -21,6 +21,7 @@ export default function Meta() {
       <noscript>
         <link href={fontSource} rel="stylesheet" />
       </noscript> */}
+      <title>Budeme Machkovi</title>
     </Head>
   );
 }

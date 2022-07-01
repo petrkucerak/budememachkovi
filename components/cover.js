@@ -9,7 +9,7 @@ export default function Cover() {
         Karolína & Filip
       </h1>
       <p className="text-2xl md:text-4xl z-10">10. září 2022</p>
-      <CountDown endingTime={"2022-06-29 19:00:00"} />
+      <CountDown endingTime={"2022-09-10 12:30:00"} />
       <SunFlowers />
       <Arrow />
     </header>

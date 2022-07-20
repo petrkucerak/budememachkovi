@@ -31,9 +31,9 @@ export default function Welcome() {
             <h3 className="font-mali font-semibold mt-2">
               Kde jste se poprvé potkali?
             </h3>
-            <p>Poprvé jsme se potkali na spolču ve VKH v Hradci Králové.</p>
+            <p>Poprvé jsme se potkali na spolču ve VKH (Salaš) v Hradci Králové.</p>
             <h3 className="font-mali font-semibold mt-2">
-              Kdy jste zjistili, že spolu chodíte?
+              Kdy jste spolu začali chodit?
             </h3>
             <p>
               Bylo to na podzim roku 2019. Stalo se to při přednášce Tomáše

@@ -32,7 +32,7 @@ export default function DaryForm() {
         <div className="flex w-full justify-between items-start flex-col my-8 p-8 bg-stone-100 rounded">
           <h2 className="text-5xl mb-2">Ubytování</h2>
           <p className="w-full text-xl">
-            Ubytování si prosím zařiďte sami. Ve Žďáru nad Sázavou doporučujeme:{" "}
+            Případné ubytování si, prosím, zařiďte sami. Ve Žďáru nad Sázavou doporučujeme:{" "}
             <Link href="https://www.nabrezniterasy.cz/">
               <a
                 target="_blank"

@@ -15,6 +15,7 @@ export default function Info() {
                   <IconRings classes="fill-stone-700 hover:fill-sunflower w-16 md:w-24 ease-out duration-300 transition hover:scale-110" />
                 </li>
                 <ul className="ml-5 text-stone-800">
+                  <li className="uppercase text-[1.2rem]">obřad</li>
                   <li className="font-semibold ">Kostel sv. Prokopa</li>
                   <li>12:30</li>
                 </ul>
@@ -29,7 +30,12 @@ export default function Info() {
                 </li>
 
                 <ul className="ml-5 text-stone-800">
-                  <li className="font-semibold">Kulturní dům<br/>Hamry nad Sázavou</li>
+                  <li className="uppercase text-[1.2rem]">hostina</li>
+                  <li className="font-semibold">
+                    Kulturní dům
+                    <br />
+                    Hamry nad Sázavou
+                  </li>
                   <li>18:30</li>
                 </ul>
               </ul>

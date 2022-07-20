@@ -3,7 +3,7 @@ import Content from "./content";
 
 export default function DaryForm() {
   return (
-    <section className="w-full min-h-[60vh] flex flex-col justify-center items-center">
+    <section className="w-full min-h-[60vh] flex flex-col justify-center items-center pb-8 pt-8">
       <Content>
         <div className="flex w-full justify-between items-start lg:flex-row flex-col my-8">
           <div className="mb-10 lg:mb-0">
@@ -28,6 +28,39 @@ export default function DaryForm() {
               </a>
             </Link>
           </div>
+        </div>
+        <div className="flex w-full justify-between items-start flex-col my-8 p-8 bg-stone-100 rounded">
+          <h2 className="text-5xl mb-2">Ubytování</h2>
+          <p className="w-full text-xl">
+            Ubytování si prosím zařiďte sami. Ve Žďáru nad Sázavou doporučujeme:{" "}
+            <Link href="https://www.nabrezniterasy.cz/">
+              <a
+                target="_blank"
+                className="underline text-stone-500 hover:text-stone-800"
+              >
+                Nábřežní terasy
+              </a>
+            </Link>
+            ,{" "}
+            <Link href="https://hotelulabute.cz/">
+              <a
+                target="_blank"
+                className="underline text-stone-500 hover:text-stone-800"
+              >
+                Hotel U Labutě
+              </a>
+            </Link>
+            ,{" "}
+            <Link href="http://www.hotelhajcman.cz/">
+              <a
+                target="_blank"
+                className="underline text-stone-500 hover:text-stone-800"
+              >
+                Hotel Hajčman
+              </a>
+            </Link>
+            .
+          </p>
         </div>
       </Content>
     </section>

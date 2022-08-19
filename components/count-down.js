@@ -51,7 +51,7 @@ export default function CountDown({ endingTime }) {
   }, 100);
 
   return (
-    <p className="text-lg text-center mt-5 w-[90vw]">
+    <p className="text-lg text-center mt-5 w-[90vw] hidden md-flex">
       <strong>Do svatby zbývá</strong>{": "}
       {days} dní a {hours}h {minutes}m {seconds}s
     </p>

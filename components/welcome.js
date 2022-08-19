@@ -17,23 +17,23 @@ export default function Welcome() {
         <div className="flex lg:flex-row flex-col justify-around items-center my-5">
           <div className="w-full lg:mr-5 mt-5 text-lg">
             <h3 className="font-mali font-semibold">
-              V jakém městě jste vyrůstali?
+              V jakém městě jsme vyrůstali?
             </h3>
             <ul>
               <li>Kája: ve Žďáře nad Sázavou</li>
               <li>Filip: v Hradci Králové</li>
             </ul>
-            <h3 className="font-mali font-semibold mt-2">Jaké jsou vaše koníčky?</h3>
+            <h3 className="font-mali font-semibold mt-2">Jaké jsou naše koníčky?</h3>
             <ul>
               <li>Kája: jízda na kole, skládání puzzlí, čtení knížek, hudba</li>
               <li>Filip: hasičský sport, skaut, volejbal, tanec</li>
             </ul>
             <h3 className="font-mali font-semibold mt-2">
-              Kde jste se poprvé potkali?
+              Kde jsme se poprvé potkali?
             </h3>
             <p>Poprvé jsme se potkali na spolču ve VKH (Salaš) v Hradci Králové.</p>
             <h3 className="font-mali font-semibold mt-2">
-              Kdy jste spolu začali chodit?
+              Kdy jsme spolu začali chodit?
             </h3>
             <p>
               Bylo to na podzim roku 2019. Stalo se to při přednášce Tomáše

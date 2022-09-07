@@ -8,6 +8,7 @@ export default function CountDown({ endingTime }) {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
   const [message, setMessage] = useState("");
+  const [deadlineClass, setDeadlineClass] = useState("");
 
   // const timeToDays = time * 60 * 60 * 24 * 1000;
 
@@ -21,10 +22,12 @@ export default function CountDown({ endingTime }) {
 
       let difference = countDownDate - now;
 
+      // days not used
       let newDays = Math.floor(difference / (1000 * 60 * 60 * 24));
-      let newHours = Math.floor(
-        (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-      );
+      // let newHours = Math.floor(
+      //   (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      // );
+      let newHours = Math.floor(difference / (1000 * 60 * 60));
       let newMinutes = Math.floor(
         (difference % (1000 * 60 * 60)) / (1000 * 60)
       );
@@ -42,6 +45,7 @@ export default function CountDown({ endingTime }) {
         setHours(0);
         setMinutes(0);
         setSeconds(0);
+        setDeadlineClass("hidden");
       }
     });
 
@@ -51,9 +55,9 @@ export default function CountDown({ endingTime }) {
   }, 100);
 
   return (
-    <p className="text-lg text-center mt-5 w-[90vw] hidden md-flex">
+    <p className={`text-lg text-center mt-5 w-[90vw] md-flex ${deadlineClass}`}>
       <strong>Do svatby zbývá</strong>{": "}
-      {days} dní a {hours}h {minutes}m {seconds}s
+      {hours}h {minutes}m {seconds}s
     </p>
   );
 }

@@ -5,7 +5,7 @@ export default function Meta() {
     "https://fonts.googleapis.com/css2?family=Neucha&family=Parisienne&display=swap";
   return (
     <Head>
-      {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
         rel="preconnect"
         href="https://fonts.gstatic.com"
@@ -20,7 +20,7 @@ export default function Meta() {
       />
       <noscript>
         <link href={fontSource} rel="stylesheet" />
-      </noscript> */}
+      </noscript>
       <title>Budeme Machkovi</title>
       <link
         rel="apple-touch-icon"

@@ -42,9 +42,15 @@ export default function Info() {
             </a>
           </Link>
         </div>
-        <div className="lg:mt-20 mt-10 lg:mb-0 mb-4">
-          <p className="italic">
-            <strong>Dopravní zpravodajství:</strong> Kdo pojede autem směrem od Hradce Králové, ve městě Trhová Kamenice se dejte směrem na Hlinsko. Potom z Hlinska směr Vojnův Městec. Připočítejte čas na čekání na semaforu před Žďárem nad Sázavou. Počítejte celkem 45 minut navíc. </p>
+        <div className="text-center mt-20">
+          <p className="">
+            <strong className="uppercase text-xl">Dopravní zpravodajství</strong>
+            <br></br>Pokud se chcete vyhnout <strong>dopravnímu omezení</strong>, podívejte se na přehled, který jsme připravili.{" "}
+            <br></br>
+            <Link href={"./assets/image/Dopravni-zpravodajstvi.png"}>
+              <a className="uppercase text-stone-700 underline">zobrazit</a>
+            </Link>
+          </p>
         </div>
       </Content>
     </section>
